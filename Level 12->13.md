@@ -137,5 +137,37 @@ commands - cd,ls
 nmap - Nmap is Linux command-line tool for network exploration and security auditing.
 openssl,ssh.
 
-https://www.freecodecamp.org/news/how-to-make-a-file-in-linux-from-the-command-line-create-a-file-in-terminal/
+referance - https://www.geeksforgeeks.org/nmap-command-in-linux-with-examples/
+
+# Level 17-18
+
+1) ls - shows files passwords.old and passwords.new exist
+2) diff passwords.old passwords.new - to find the difference between the files
+3) the output was - 42c42                                                                                                                                         < p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW                                                                                                                               ---                                                                                                                                                                > hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+4) as we wrote passwords.new in diff command in the second place hence the password  is also printed in the second half.
+
+# password - hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+commands - ls, diff - to find difference between files
+
+reference - https://www.geeksforgeeks.org/diff-command-linux-examples/
+
+# Level 18-19
+
+First i thought as we arent able to lgin using ssh , is there any other commandd to get into a server.
+But then i found out that we can remotely access a server using ssh command itself 
+learnt about in the reference link given below
+
+1) ssh bandit18@bandit.labs.overthewire.org -p 2220 ls - it asks for the password of bandit18 and then shows that readme file exists.
+2) ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme - it asks for the password of bandit18 and then gives us the password for bandit19
+
+# password - awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+
+commands - ssh ( ls, cat).
+reference - https://www.hostinger.in/tutorials/ssh/basic-ssh-commands
+
+# Level 19-20
+
+
 
