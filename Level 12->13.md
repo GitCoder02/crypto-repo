@@ -85,6 +85,23 @@ telnet(localhost ) - In Linux, the telnet command is used to create a remote con
 reference - https://www.javatpoint.com/linux-telnet-command
 
 # Level 15-16
+1) man openssl
+2) openssl s_client -connect localhost:30001
+3) Then I paste password - jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+4) I get output as Corrrect!
+JQttfApK4SeyHwDlI9SXGR50qclOAil1
 
-1) 
+
+# password - JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+commands - openssl ( s_client, -connect)
+openssl - OpenSSL is a cryptography software library or toolkit that makes communication over computer networks more secure. It is generally used for Transport Layer Security(TSL) or Secure Socket Layer(SSL) protocols.
+s_client - The s_client command implements a generic SSL/TLS client which connects to a remote host using SSL/TLS. It is a very useful diagnostic tool for SSL servers.
+- connect - This specifies the host and optional port to connect to.
+
+reference - https://www.openssl.org/docs/man1.0.2/man1/openssl-s_client.html
+
+# Level 16-17
+
+1)
 
