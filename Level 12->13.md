@@ -147,7 +147,7 @@ referance - https://www.geeksforgeeks.org/nmap-command-in-linux-with-examples/
 
 4) as we wrote passwords.new in diff command in the second place hence the password  is also printed in the second half.
 
-# password 17 - hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+# password 18 - hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
 
 commands - ls, diff - to find difference between files
 
@@ -162,7 +162,7 @@ learnt about in the reference link given below
 1) ssh bandit18@bandit.labs.overthewire.org -p 2220 ls - it asks for the password of bandit18 and then shows that readme file exists.
 2) ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme - it asks for the password of bandit18 and then gives us the password for bandit19
 
-# password 18- awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+# password 19 - awhqfNnAbc1naukrpqDYcF95h7HoMTrC
 
 commands - ssh ( ls, cat).
 reference - https://www.hostinger.in/tutorials/ssh/basic-ssh-commands
