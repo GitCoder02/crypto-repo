@@ -50,7 +50,7 @@ gzip- gzip command compresses files
 bzip2- bzip2 command in Linux is used to compress and decompress the files
 tar - The Linux ‘tar’ stands for tape archive, which is used to create Archive and extract the Archive files.
 
-referance - https://www.geeksforgeeks.org/gzip-command-linux/ ,   https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/#:~:text=The%20most%20common%20uses%20of,to%20add%20to%20the%20archive. , searched for way of using other commands.  
+reference - https://www.geeksforgeeks.org/gzip-command-linux/ ,   https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/#:~:text=The%20most%20common%20uses%20of,to%20add%20to%20the%20archive. , searched for way of using other commands.  
 
 
 # Level 13-14
@@ -59,5 +59,32 @@ referance - https://www.geeksforgeeks.org/gzip-command-linux/ ,   https://linuxi
 2) cat - /etc/bandit_pass/bandit14 - tried it but couldnt get the access
 3) ssh -i - The -i flag allows login with the private key.
 4) so we use ssh -i command
-5) ssh -i sshkey.private bandit14@localhost -p 2220
+5) ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+6)  it lets us login into bandit14 server directly
+
+commands - ls , ssh ( -i ).
+
+reference - https://docs.rackspace.com/docs/logging-in-with-an-ssh-private-key-on-linuxmac
+
+# Level 14-15
+
+1) ls
+2) man telnet
+3) cat /etc/bandit_pass/bandit14 - bcuz in last level it was told that : The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14.
+4) so got password of 14 - fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+5) telnet localhost 30000 - to connect to localhost port 30000
+6) now i enter the password of bandit14 - fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+7) i get the correct password for bandit 15 - jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+# password level 14 - fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+# password level 15 - jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+commands - ls,cat
+telnet(localhost ) - In Linux, the telnet command is used to create a remote connection with a system over a TCP/IP network. For example, we are connecting our system with the localhost. Execute the command as follows: telnet localhost  .
+
+reference - https://www.javatpoint.com/linux-telnet-command
+
+# Level 15-16
+
+1) 
 
