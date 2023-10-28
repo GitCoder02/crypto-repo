@@ -53,6 +53,12 @@ tar - The Linux ‘tar’ stands for tape archive, which is used to create Archi
 reference - https://www.geeksforgeeks.org/gzip-command-linux/ ,   https://linuxize.com/post/how-to-create-and-extract-archives-using-the-tar-command-in-linux/#:~:text=The%20most%20common%20uses%20of,to%20add%20to%20the%20archive. , searched for way of using other commands.  
 
 
+![Screenshot 2023-10-27 212146](https://github.com/GitCoder02/crypto-repo/assets/148866219/cec3a45e-a45f-420d-a392-38c4e89c7bde)
+![Screenshot 2023-10-27 212130](https://github.com/GitCoder02/crypto-repo/assets/148866219/2f51bdce-daeb-44ac-b0f6-2aef2657d18d)
+
+
+
+
 # Level 13-14
 
 1) ls - shows one file : sshkey.private
@@ -65,6 +71,10 @@ reference - https://www.geeksforgeeks.org/gzip-command-linux/ ,   https://linuxi
 commands - ls , ssh ( -i ).
 
 reference - https://docs.rackspace.com/docs/logging-in-with-an-ssh-private-key-on-linuxmac
+
+![Screenshot 2023-10-27 215321](https://github.com/GitCoder02/crypto-repo/assets/148866219/83e87c2e-ae7b-44fe-b1b4-038b346b870c)
+
+
 
 # Level 14-15
 
@@ -84,6 +94,9 @@ telnet(localhost ) - In Linux, the telnet command is used to create a remote con
 
 reference - https://www.javatpoint.com/linux-telnet-command
 
+![Screenshot 2023-10-28 191215](https://github.com/GitCoder02/crypto-repo/assets/148866219/5c9f0fda-86cb-4541-b359-53a366e26d0b)
+
+
 # Level 15-16
 1) man openssl
 2) openssl s_client -connect localhost:30001
@@ -100,6 +113,10 @@ s_client - The s_client command implements a generic SSL/TLS client which connec
 - connect - This specifies the host and optional port to connect to.
 
 reference - https://www.openssl.org/docs/man1.0.2/man1/openssl-s_client.html
+
+![Screenshot 2023-10-27 221559](https://github.com/GitCoder02/crypto-repo/assets/148866219/9491e2cd-e9ec-49fc-b3de-d28a066c3250)
+![Screenshot 2023-10-27 221546](https://github.com/GitCoder02/crypto-repo/assets/148866219/c7eb7ee3-629a-4593-8539-102edd72deb5)
+
 
 # Level 16-17
 
@@ -139,6 +156,9 @@ openssl,ssh.
 
 referance - https://www.geeksforgeeks.org/nmap-command-in-linux-with-examples/
 
+![Screenshot 2023-10-28 200707](https://github.com/GitCoder02/crypto-repo/assets/148866219/80015c23-b3a3-4397-a96c-dc2e8468750c)
+
+
 # Level 17-18
 
 1) ls - shows files passwords.old and passwords.new exist
@@ -153,6 +173,9 @@ commands - ls, diff - to find difference between files
 
 reference - https://www.geeksforgeeks.org/diff-command-linux-examples/
 
+![Screenshot 2023-10-28 210935](https://github.com/GitCoder02/crypto-repo/assets/148866219/20807d7c-bbdf-4b99-bcd5-2ec23c231a55)
+
+
 # Level 18-19
 
 First i thought as we arent able to lgin using ssh , is there any other commandd to get into a server.
@@ -166,6 +189,8 @@ learnt about in the reference link given below
 
 commands - ssh ( ls, cat).
 reference - https://www.hostinger.in/tutorials/ssh/basic-ssh-commands
+
+![Screenshot 2023-10-28 212302](https://github.com/GitCoder02/crypto-repo/assets/148866219/22b58ebe-9c52-4b35-a4a5-5a6fa3372482)
 
 # Level 19-20
 
@@ -186,6 +211,7 @@ This means we can access the bandit20 users password file, which can only be rea
 commands - ls,ls -al, ./bandit20-do ls and cat
 
 # Level 20-21
+
 
 
 
