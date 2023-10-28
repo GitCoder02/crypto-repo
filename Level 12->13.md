@@ -169,5 +169,23 @@ reference - https://www.hostinger.in/tutorials/ssh/basic-ssh-commands
 
 # Level 19-20
 
+IMP - Each file has an owner and a group that owns the file. For the user, the group and the rest of the users the permissions can be set separately. It can be chosen if the file is readable, writable or executable. The permissions and owners of a file can be seen using the ls -l command. The third column shows the user, the fourth the group and the first column shows the permissions. The permissions are written the following rwxrwxrwx, the first three letters indicate the user has all permissions (read=r, write=w and execute=x). The next three letters indicate the permission of the group and the last of everyone else. If one of the letters is replaced with -, this means the permission is not granted.
+
+1) ls - shows bandit20-do
+2) ls -al - shows : -rwsr-x---  1 bandit20 bandit19 14876 Oct  5 06:19 bandit20-do
+3) It means the owner is bandit20 and the group is bandit19, this with ‘-rwsr-x—’ means the user bandit19 can execute the binary, but the binary is executed as user bandit20.
+This means we can access the bandit20 users password file, which can only be read by the user bandit20.
+5) ./bandit20-do - we get output :  Run a command as another user.  Example: ./bandit20-do id
+6) ./bandit20-do ls /etc/bandit_pass - as it was mentioned that : The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.
+7) it shows all bandit0 to bandit32 files exisisting inside it
+8) ./bandit20-do cat /etc/bandit_pass/bandit20
+9) we get password - VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+# password - VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+
+commands - ls,ls -al, ./bandit20-do ls and cat
+
+# Level 20-21
+
 
 
