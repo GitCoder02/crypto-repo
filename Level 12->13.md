@@ -40,7 +40,7 @@
 38) file data8 - ASCII encoded
 39) cat data8
 40) shows password - wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
-# password - wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+# password 13 - wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
 commands - ls,cat,mkdir,cd
 cp - to copy
 mv - to rename
@@ -92,7 +92,7 @@ reference - https://www.javatpoint.com/linux-telnet-command
 JQttfApK4SeyHwDlI9SXGR50qclOAil1
 
 
-# password - JQttfApK4SeyHwDlI9SXGR50qclOAil1
+# password 16 - JQttfApK4SeyHwDlI9SXGR50qclOAil1
 
 commands - openssl ( s_client, -connect)
 openssl - OpenSSL is a cryptography software library or toolkit that makes communication over computer networks more secure. It is generally used for Transport Layer Security(TSL) or Secure Socket Layer(SSL) protocols.
@@ -147,7 +147,7 @@ referance - https://www.geeksforgeeks.org/nmap-command-in-linux-with-examples/
 
 4) as we wrote passwords.new in diff command in the second place hence the password  is also printed in the second half.
 
-# password - hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+# password 17 - hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
 
 commands - ls, diff - to find difference between files
 
@@ -162,7 +162,7 @@ learnt about in the reference link given below
 1) ssh bandit18@bandit.labs.overthewire.org -p 2220 ls - it asks for the password of bandit18 and then shows that readme file exists.
 2) ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme - it asks for the password of bandit18 and then gives us the password for bandit19
 
-# password - awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+# password 18- awhqfNnAbc1naukrpqDYcF95h7HoMTrC
 
 commands - ssh ( ls, cat).
 reference - https://www.hostinger.in/tutorials/ssh/basic-ssh-commands
