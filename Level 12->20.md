@@ -210,6 +210,9 @@ This means we can access the bandit20 users password file, which can only be rea
 
 commands - ls,ls -al, ./bandit20-do ls and cat
 
+![Screenshot 2023-10-28 224619](https://github.com/GitCoder02/crypto-repo/assets/148866219/54b26949-abeb-4ccd-a457-31628666a76b)
+
+
 # Level 20-21
 
 
